@@ -1,0 +1,68 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, serif;
+  color: #222;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.7;
+  background: #fafafa;
+}
+
+nav {
+  padding: 16px 0;
+  border-bottom: 2px solid #222;
+  margin-bottom: 40px;
+  display: flex;
+  gap: 24px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #555;
+  font-family: Arial, sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+nav a:hover { color: #000; }
+h1 { font-size: 2.2rem; margin-bottom: 16px; line-height: 1.2; }
+h2 { font-size: 1.4rem; margin-bottom: 8px; }
+p { margin-bottom: 12px; }
+a { color: #1a1a8c; }
+
+.hero { padding: 60px 0 40px; border-bottom: 1px solid #ddd; margin-bottom: 40px; }
+.hero p { font-size: 1.15rem; color: #555; max-width: 540px; }
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #222;
+  color: #fff !important;
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  font-size: 0.9rem;
+}
+.btn:hover { background: #444; }
+
+.post-card { border-bottom: 1px solid #eee; padding: 28px 0; }
+.post-card h2 a { text-decoration: none; color: #111; }
+.post-card h2 a:hover { text-decoration: underline; }
+.date { color: #888; font-size: 0.85rem; margin: 6px 0 10px; font-family: Arial, sans-serif; }
+
+.post-content { padding: 20px 0; }
+.post-content p { margin-bottom: 16px; }
+.back-link { display: inline-block; margin-top: 32px; font-family: Arial, sans-serif; font-size: 0.9rem; }
+
+footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  color: #999;
+  font-size: 0.82rem;
+  font-family: Arial, sans-serif;
+}
